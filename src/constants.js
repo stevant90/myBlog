@@ -1,8 +1,3 @@
 export const POSTS_KEY = 'POSTS';
+export const BASE_URL = 'https://jsonplaceholder.typicode.com';
 
-const apiUrls = {
-    development: 'https://jsonplaceholder.typicode.com',
-    production: 'https://jsonplaceholder.typicode.com'
-};
-
-export const BASE_URL = apiUrls[process.env.NODE_ENV];
