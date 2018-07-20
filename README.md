@@ -1,7 +1,7 @@
-# React Go
+# myBlog
 
-Simple React boilerplate to start you up.
-Includes redux, redux-thunk, react-router, simple express server to serve project and build config for dev and prod.
+myBlog is a single page application written in React.js. This app simulates blog in which you can add your own posts, and read all posts on home page. App also contains authors page, about page, and detail informations about authors and posts. For fetch data axios was used with GET and POST methods, and API for all content are from https://jsonplaceholder.typicode.com/. For style react-bootstrap was used.
+
 
 ## Installation
 
@@ -20,9 +20,4 @@ To run project in prod env with express server and minification of resources, ru
 ```sh
 npm start
 ```
-
-## Redux ajax adapter
-Simple function that wraps axios API calls and takes action creators to dispatch on call request, success or error.
-This can be extended with custom auth stuff, like headers, so you don't have to specify them with every API call you make.
-
 
