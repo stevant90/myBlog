@@ -1,4 +1,4 @@
-# myBlog
+# my-blog
 
 myBlog is a single page application written in React.js. This app simulates blog in which you can add your own posts, and read all posts on home page. App also contains authors page, about page, and detail informations about authors and posts. For fetch data axios was used with GET and POST methods, and API for all content are from https://jsonplaceholder.typicode.com/. For style react-bootstrap was used.
 
